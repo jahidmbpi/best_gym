@@ -1,8 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "./meanmenu.min.css";
-import Footter from "@/component/footter/Footter";
+
 import Navbar from "@/component/Navbar";
+import Footter from "@/component/footter/Footter";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +26,7 @@ export default function RootLayout({ children }) {
       <body className=" mx-0 sm:mx-[0px] lg:mx-[70px]">
         <Navbar></Navbar>
         {children}
-        {/* <Footter></Footter> */}
+        <Footter></Footter>
       </body>
     </html>
   );
