@@ -8,7 +8,7 @@ export default function page() {
     <div>
       <TrainerBanner></TrainerBanner>
       <TrainerPart1></TrainerPart1>
-      <TrainerPart2></TrainerPart2>
+      {/* <TrainerPart2></TrainerPart2> */}
     </div>
   );
 }
