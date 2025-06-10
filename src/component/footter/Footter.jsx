@@ -55,12 +55,12 @@ export default function Footter() {
           <div className="min-w-0">
             <h2 className="text-lg font-semibold mb-3">Subscribe</h2>
             <input
-              className="w-[80%] md:max-w-full h-8 md:h-12 px-3 mb-3 bg-white/70 text-black rounded outline-none"
+              className="w-full md:max-w-full h-8 md:h-12 px-3 mb-3 bg-white/70 text-black rounded outline-none"
               type="text"
               placeholder="Enter your name"
             />
             <input
-              className="w-[80%] md:max-w-full h-8 md:h-12 px-3 mb-3 bg-white/70 text-black rounded outline-none"
+              className="w-full md:max-w-full h-8 md:h-12 px-3 mb-3 bg-white/70 text-black rounded outline-none"
               type="email"
               placeholder="Enter your email"
             />

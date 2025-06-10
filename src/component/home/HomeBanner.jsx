@@ -9,8 +9,8 @@ export default function HomeBanner() {
       }}
     >
       {/* Text content */}
-      <div className="absolute top-[20%] md:top-[25%] left-4 md:left-10 lg:left-[100px] w-[90%] sm:w-[500px] md:w-[580px]">
-        <div className="space-y-4 p-4">
+      <div className="absolute top-[30%] md:top-[30%] left-4 md:left-10 lg:left-[100px] w-[90%] sm:w-[500px] md:w-[580px]">
+        <div className=" space-y-2 md:space-y-4 p-4">
           <h2 className="text-white text-[18px] sm:text-3xl md:text-4xl font-bold leading-snug">
             THE PAIN YOU FEEL
             <span className="text-[rgb(79,65,182)] mx-1">TODAY</span> <br />
