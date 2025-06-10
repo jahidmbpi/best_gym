@@ -64,7 +64,7 @@ export default function Footter() {
               type="email"
               placeholder="Enter your email"
             />
-            <button className="bg-[#4F41B6] w-[80%] h-8 md:w-full md:h-12 rounded text-white hover:bg-[#3e32a0] transition">
+            <button className="bg-[#4F41B6] w-full h-8 md:w-full md:h-12 rounded text-white hover:bg-[#3e32a0] transition">
               Send
             </button>
           </div>
