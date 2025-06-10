@@ -10,9 +10,9 @@ export default function page() {
       <AboutBanner></AboutBanner>
       <div className="bg-black">
         <AboutPart2></AboutPart2>
-        {/* <AboutPart3></AboutPart3>
+        <AboutPart3></AboutPart3>
         <AboutPart4></AboutPart4>
-        <AboutPart5></AboutPart5> */}
+        <AboutPart5></AboutPart5>
       </div>
     </div>
   );

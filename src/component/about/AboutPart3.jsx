@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutPart3() {
   return (
-    <div className="flex w-[1110px] items-center justify-between mx-auto ">
+    <div className="flex w-full flex-col md:flex-row space-y-3 p-4 lg:w-[1110px] items-center justify-between mx-auto ">
       <div className=" relative ">
         <img
           className="w-[350px] h-[292px] opacity-[45%] "
