@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className=" mx-0 sm:mx-[0px] lg:mx-[70px]">
-        {/* <Navbar></Navbar> */}
+        <Navbar></Navbar>
         {children}
         <Footter></Footter>
       </body>

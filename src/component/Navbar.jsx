@@ -1,4 +1,4 @@
-"use client"; // যদি আপনি Next.js app router ব্যবহার করেন
+"use client";
 
 import React, { useState } from "react";
 import Link from "next/link";
