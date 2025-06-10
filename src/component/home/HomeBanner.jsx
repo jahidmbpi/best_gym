@@ -1,51 +1,46 @@
-import { IoIosArrowDropleft } from "react-icons/io";
-import { IoIosArrowDropright } from "react-icons/io";
+import { IoIosArrowDropleft, IoIosArrowDropright } from "react-icons/io";
 
 export default function HomeBanner() {
   return (
     <div
-      className="bg-cover min-h-screen w-[1380px] bg-center relative"
+      className="bg-cover h-[400px] w-full md:h-[500px]  lg:min-h-screen  bg-center relative"
       style={{
         backgroundImage: `url('/homeBannner.jpg')`,
       }}
     >
-      {/* Text content - now absolute */}
-      <div className="absolute top-[30%] left-[100px] w-[580px]">
-        <div className="space-y-[15px] p-4">
-          <h2 className="text-white text-4xl font-bold">
+      {/* Text content */}
+      <div className="absolute top-[20%] md:top-[25%] left-4 md:left-10 lg:left-[100px] w-[90%] sm:w-[500px] md:w-[580px]">
+        <div className="space-y-4 p-4">
+          <h2 className="text-white text-[18px] sm:text-3xl md:text-4xl font-bold leading-snug">
             THE PAIN YOU FEEL
-            <span className="text-[rgb(79,65,182)] mx-2">TODAY</span> <br />
+            <span className="text-[rgb(79,65,182)] mx-1">TODAY</span> <br />
             WILL BE THE STRENGTH <br /> YOU FEEL
-            <span className="text-[rgb(79,65,182)] mx-2">TOMORROW</span>
+            <span className="text-[rgb(79,65,182)] mx-1">TOMORROW</span>
           </h2>
-          <p className="text-white font-bold">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedo
+          <p className="text-white font-normal text-sm md:text-base">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et{" "}
           </p>
 
-          <div className="flex gap-4 items-center">
-            <button className="w-[140px] h-[60px] bg-[#4F41B6] text-white font-semibold">
+          <div className="flex text-center items-center gap-4">
+            <button className="w-[80px] h-[40px] md:w-[125px] lg:w-[146px] lg:h-[58px] bg-[#4F41B6] text-white font-semibold">
               Join Us
             </button>
-            <div className="w-[140px]">
-              <button className="text-white p-0 m-0 h-auto">
-                <span className="border-b-2 border-white inline-block font-bold">
-                  Contact Us
-                </span>
-              </button>
-            </div>
+            <button className=" text-white font-bold border-b-2 border-white">
+              Contact Us
+            </button>
           </div>
         </div>
       </div>
 
       {/* Left Arrow */}
-      <div className="absolute top-1/2 left-[40px] transform -translate-y-1/2">
-        <IoIosArrowDropleft className="text-4xl text-white cursor-pointer bg-[#4F41B6] rounded-full" />
+      <div className="absolute top-1/2  left-0 sm:left-3 transform -translate-y-1/2">
+        <IoIosArrowDropleft className="text-2xl sm:text-4xl  text-white cursor-pointer bg-[#4F41B6] rounded-full" />
       </div>
 
       {/* Right Arrow */}
-      <div className="absolute top-1/2 right-[80px] transform -translate-y-1/2">
-        <IoIosArrowDropright className="text-4xl text-white cursor-pointer bg-[#4F41B6] rounded-full" />
+      <div className="absolute top-1/2 right-0 sm:right-3 transform -translate-y-1/2">
+        <IoIosArrowDropright className="text-2xl sm:text-4xl  text-white cursor-pointer bg-[#4F41B6] rounded-full" />
       </div>
     </div>
   );

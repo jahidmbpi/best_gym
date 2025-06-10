@@ -5,9 +5,9 @@ export default function Part5() {
   return (
     <div className="bg-[#1B1B1B]">
       {/* Header */}
-      <div className="space-y-6 w-[1050px] items-center justify-center mx-auto">
+      <div className="space-y-6 w-full lg:w-[1050px] items-center justify-center mx-auto px-4 sm:p-0">
         <div className="flex justify-between items-center">
-          <h2 className="text-4xl font-bold capitalize text-white">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold capitalize text-white">
             Fitness Blogs
           </h2>
           <div className="flex gap-4">
@@ -18,15 +18,15 @@ export default function Part5() {
         </div>
 
         {/* Blog Card */}
-        <div className=" flex w-full gap-2">
+        <div className=" flex flex-col space-y-3.5 lg:flex-row w-full gap-2">
           <div className="relative w-full">
             <img
-              className="h-[540px]  w-full"
+              className="h-[350px] md:h-[400px] lg:h-[540px]  w-full"
               src="/img1.jpg"
               alt="Fitness Blog"
             />
             <div className="absolute bottom-0 left-0 w-full text-white  p-4">
-              <h2 className=" font-medium text-2xl ">
+              <h2 className=" font-medium text-xl lg:text-2xl">
                 Best stretching exercise and how to do it
               </h2>
               <div className="flex  gap-3 text-sm">
@@ -42,12 +42,12 @@ export default function Part5() {
           </div>
           <div className="relative w-full">
             <img
-              className="h-[540px] w-full"
+              className="h-[350px] md:h-[400px] lg:h-[540px]  w-full"
               src="/img2.jpg"
               alt="Fitness Blog"
             />
             <div className="absolute bottom-0 left-0 w-full p-4 text-white space-y-4">
-              <h2 className=" font-medium text-2xl">
+              <h2 className=" font-medium text-xl lg:text-2xl">
                 Protein powder for weight gain and workout
               </h2>
               <div className="flex gap-6 text-sm">
@@ -58,12 +58,12 @@ export default function Part5() {
           </div>
           <div className="relative w-full">
             <img
-              className="h-[540px] w-full"
+              className="h-[350px] md:h-[400px] lg:h-[540px]  w-full"
               src="/img3.jpg"
               alt="Fitness Blog"
             />
             <div className="absolute bottom-0 left-0 w-full text-white p-4">
-              <h2 className=" font-medium text-2xl">
+              <h2 className=" font-medium text-xl lg:text-2xl">
                 Best stretching exercise and how to do it
               </h2>
               <div className="flex gap-6 text-sm">
