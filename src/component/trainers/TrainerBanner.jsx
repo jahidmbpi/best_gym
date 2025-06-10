@@ -8,6 +8,7 @@ export default function TrainerBanner() {
         backgroundImage: `url('/trainerBanner.jpg')`,
       }}
     >
+      <div className="bg-gradient-to-r from-black/80 to-transparent absolute inset-0"></div>
       <div className="absolute top-[60%] left-[40px] md:left-[100px] lg:left-[120px]">
         <h2 className=" text-3xl md:text-4xl lg:text-5xl">Trainers</h2>
         <p className="text-xl">Home / Trainers</p>
